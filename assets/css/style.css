@@ -78,21 +78,18 @@
 
 body {
   font-size: 16px;
-  background: #FF6B95;
-  background: -o-linear-gradient(165deg, #FF6B95 0%, #FFC796 100%);
-  background: linear-gradient(285deg, #FF6B95 0%, #FFC796 100%);
+  background: #a16bff;
+  background: -o-linear-gradient(165deg, #a16bff 0%, #a16bff 100%);
+  background: linear-gradient(285deg, #a16bff 0%, #a16bff 100%);
   background-attachment: fixed !important; }
 
 .koolui-ucard-ji01 {
   font-family: "Barlow", sans-serif;
-  vertical-align: middle;
   padding: 60px 0; }
-
   .koolui-ucard-ji01 .item {
     background-color: #FFFFFF;
     border-radius: 8px;
     padding: 30px;
-
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
@@ -101,24 +98,18 @@ body {
     @media screen and (min-width: 992px) {
       .koolui-ucard-ji01 .item {
         margin-bottom: 0; } }
-    .koolui-ucard-ji01 .collapse {
-      margin-top: 20px;
-      font-family: "Barlow", sans-serif;
-      font-size: 25px;
-      font-size: 25px;
-    }
-    .btn-xlg {
-       font-style: bold;
-       font-size: 50px; //change this to your desired size
-       line-height: normal;
-       text-align: center;
-       -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-       border-radius: 8px;
-       width: 150px;
-       height: 50px;
-       margin: 0 auto;
-                        }
+    .koolui-ucard-ji01 .item__badge {
+      position: absolute;
+      top: 30px;
+      right: 0;
+      height: 20px;
+      background-color: #FFD23F;
+      color: #373737;
+      line-height: 20px;
+      padding: 0 10px;
+      border-radius: 10px 0 0 10px;
+      font-size: .75rem;
+      font-weight: 500; }
     .koolui-ucard-ji01 .item__media {
       width: 80px;
       height: 80px;
